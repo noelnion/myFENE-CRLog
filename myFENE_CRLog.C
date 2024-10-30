@@ -192,6 +192,7 @@ void Foam::constitutiveEqs::myFENE_CRLog::correct
 
 	// Write f field
 	fVals_ = f;
+	fVals_.write();
 
     // Convert from theta to tau
 
